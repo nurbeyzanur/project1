@@ -5,8 +5,7 @@ package algoritmaprojeleri;
 import java.util.Scanner;
 
        public class proje8 {
-           public static void main(String[] args) {
-                                           
+           public static void main(String[] args) {                                           
            Scanner scan = new Scanner(System.in);
            
             int n,i ;
@@ -15,8 +14,8 @@ import java.util.Scanner;
                
               for(i=1;i<n;i++){
                   if(i%4==0){
-                  System.out.print(i+" ");                             
-                 }           
-              }   
-      }
-}
+                  System.out.print(i+"-");                             
+                  }  
+              }                     
+          }              
+       }
