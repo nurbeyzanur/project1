@@ -1,7 +1,7 @@
 
 
 package algoritmaprojeleri;
-//klavyeden kütlesi hızı ve yerden yüksekliği girilen madddenin potansiyel ve kinetik enerjisini hesaplayan program
+//klavyeden kütlesi hızı ve yerden yüksekliği girilen maddenin potansiyel ve kinetik enerjisini hesaplayan program
 
 import java.util.Scanner;
 
