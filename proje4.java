@@ -12,28 +12,22 @@ import java.util.Scanner;
                 float potansiyel,kinetik;
                                                                                                                           
                 System.out.println("Lütfen cismin kütlesini giriniz:");
-                m= input.nextInt();
+                    m = input.nextInt();
                 
                 System.out.println("Lütfen cismin yerden yüksekliğini giriniz:");
-                h = input.nextInt();
+                    h = input.nextInt();
                 
                 System.out.println("lütfen alacağınız yerçekimi ivmesini giriniz:");
-                g= input.nextInt();
-                
-                
+                    g = input.nextInt();
+                                
                 System.out.println("Lütfen cismin hızını giriniz:");
-                V =input.nextInt();
+                   V = input.nextInt();
                 
-                potansiyel=m*g*h;
-                 System.out.println("Cismin potansiyel enejisi:"+potansiyel);
+                potansiyel = m*g*h;
+                    System.out.println("Cismin potansiyel enejisi:"+potansiyel);
                  
-                 kinetik=(m*V*V)/2;
-                 System.out.println("Cismin kinetik enerjisi:"+kinetik);
-                 
-                
-                
-                      
-                     
+                kinetik = (m*V*V)/2;
+                    System.out.println("Cismin kinetik enerjisi:"+kinetik);                                                                                            
             }
                    
     
