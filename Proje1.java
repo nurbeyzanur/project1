@@ -18,5 +18,5 @@ public class Proje1 {
         alan=(float)( kenar*yükseklik)/2;
         System.out.println("Verilen bilgilere ait üçgenin alanı:"+alan);
     }
-    
+   
 }
