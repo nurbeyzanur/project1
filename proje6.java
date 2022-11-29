@@ -1,7 +1,7 @@
 
 package algoritmaprojeleri;
 //kullanıcıdan alınan cisme uygulanan kuvvet, yer değiştirme ve geçen süreyle iş ve gücü bulma
-
+ 
 import java.util.Scanner;
 
 public class proje6 {
