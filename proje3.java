@@ -8,18 +8,16 @@ public class proje3 {
       
         Scanner scan = new Scanner(System.in);
         int r;
-        float hacmi;
-        System.out.print("Lütfen kürenin yarıçapını giriniz");
+        double alan,hacim;
+      
+        System.out.println("Lütfen kürenin yarıçapını giriniz:");      
         r =scan.nextInt();
         
-       
-       double hacim=4*(Math.PI)*r*r*r;
-       double alan= 4*(Math.PI)*r*r;
-       
-        System.out.println("kürenin hacmi"+hacim);
-        System.out.println("kürenin alanı"+alan);      
+          hacim=(4*(Math.PI)*r*r*r)/3;
+          alan= (4*(Math.PI)*r*r);
       
-              
+            System.out.println("kürenin hacmi: "+hacim);
+            System.out.println("kürenin alanı: "+alan);                                              
     }
     
 }
