@@ -1,7 +1,7 @@
 
 package algoritmaprojeleri;
 // 1 den n e kadar olan sayılardan 4 e bölünenleri bulan program
-
+ 
 import java.util.Scanner;
 
        public class proje8 {
