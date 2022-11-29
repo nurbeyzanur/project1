@@ -1,4 +1,3 @@
-
 package algoritmaprojeleri;
 // 1 ve 7 arasında sayı girilip  bu tam sayıya göre haftanın ilgili gününü yazdıran program
 
@@ -10,23 +9,29 @@ public class proje10 {
       int n;
       
         System.out.println("Lütfen 1 ve 7 arasında sayı giriniz:");
-         n= scan.nextInt();
+          n = scan.nextInt(); 
+         
          if (n==1){
              System.out.println("Pazartesi günü");
-         }
+             }
          else if(n==2){
              System.out.println("Salı günü");
-         }else if(n==3){
+             }
+         else if(n==3){
              System.out.println(":Çarşamba günü");
-         } else if(n==4){
+             }          
+         else if(n==4){
              System.out.println("Perşembe günü");
-         } else if(n==5){
+             }
+         else if(n==5){
              System.out.println("Cuma günü");
-         } else if(n==6){
+             }
+         else if(n==6){
              System.out.println("Cumartesi günü");
-         }
-         else{System.out.println("Pazar günü");
-    }
+             }
+         else if (n==7){
+             System.out.println("Pazar günü");
+             }
             
     }          
 }
