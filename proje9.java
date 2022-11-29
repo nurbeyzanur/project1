@@ -20,7 +20,7 @@ import java.util.Scanner;
              else if(n<0){
                  System.out.println(n+" sayısı negatif bir sayıdır.");                 
              }
-             
+              
              else {
                  System.out.println(n+" sayısı pozitif bir sayıdır.");
              }   
