@@ -4,7 +4,6 @@ package algoritmaprojeleri;
 
 import java.util.Scanner;
 
-
     public class proje7 {
         public static void main(String[] args) {
             Scanner scan = new Scanner(System.in);
@@ -17,7 +16,7 @@ import java.util.Scanner;
             System.out.println("lütfen koniye ait yüksekliği giriniz:");
             h = scan.nextInt();
             
-            hacim=Math.PI*r*r*h/3;
+            hacim = Math.PI*r*r*h/3;
              System.out.println("verilen koninin hacmi"+hacim);
         }
     
