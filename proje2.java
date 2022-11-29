@@ -14,6 +14,6 @@ public class proje2 {
         System.out.println("Radyan: "+radyan);
         grad = a*10/9;
         System.out.println("Grad: "+grad);
-        
+         
     }
 }
